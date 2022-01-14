@@ -155,6 +155,11 @@ table tr{
     width: 100%;
     margin-left: 0.1em;
   }
+    body{
+		background-position: 50% 0%;
+		background-size: auto 1080px;
+	}
+
 }
 
 /*******************************************************/
