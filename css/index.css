@@ -170,7 +170,8 @@ footer> p {
 /* mobileのときのスタイル */
 /*******************************************************/
 @media screen and (max-width: 480px) {
-    body{
-        background-size: auto 812px;
-    }
+	body{
+		background-position: 50% 0%;
+		background-size: auto 812px;
+	}
 }
