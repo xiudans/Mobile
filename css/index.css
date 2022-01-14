@@ -14,7 +14,7 @@ html {
 
 body{
     line-height: 1.5;
-        /* https://developer.mozilla.org/ja/docs/Web/CSS/line-height */
+
     color: rgb(73, 72, 72);
     font-size: 1.6rem; /* 16px */
     font-family: "Helvetica Neue",
@@ -24,27 +24,14 @@ body{
     Meiryo,
     sans-serif;
     text-align: center;
-        /* https://developer.mozilla.org/ja/docs/Web/CSS/text-align */
-    /* 背景（はいけい）をうすくしたいとき */
-    /* background-color:rgba(255, 255, 255, 0.6); */
-        /* https://developer.mozilla.org/ja/docs/Web/CSS/background-color */
-
-    /* background-blend-mode: soft-light; */
-        /* https://developer.mozilla.org/ja/docs/Web/CSS/background-blend-mode */
-
     background-image: url(../img/back.png);
-        /* https://developer.mozilla.org/ja/docs/Web/CSS/background-image */
     background-size: cover;
-        /* https://developer.mozilla.org/ja/docs/Web/CSS/background-size */
-        /* https://developer.mozilla.org/ja/docs/Web/CSS/background */
     overflow: hidden;
 }
 
 header, footer, h1, h2, h3, p, div, .container01, .filler01 {
     margin: 0.2em 0em 0em 0em;
-        /* https://developer.mozilla.org/ja/docs/Web/CSS/margin */
     padding: 0.1em;
-        /* https://developer.mozilla.org/ja/docs/Web/CSS/padding */
 }
 
 /*****************************/
@@ -83,10 +70,9 @@ h2{
     padding-left: 0.5em;
     width: 80%;
     border-radius: 0.5em 1.5em;
-        /* https://developer.mozilla.org/ja/docs/Web/CSS/border-radius */
+
     background-color:rgba(245, 245, 245, 0.6);
     box-shadow:0 0 0.5em rgb(73, 72, 72);
-        /* https://developer.mozilla.org/ja/docs/Web/CSS/box-shadow */
 }
 main > p {
     font: 1.2em bold;
@@ -99,7 +85,6 @@ a {
     color: black;
     font-weight: 900;
     text-decoration: none;
-        /* https://developer.mozilla.org/ja/docs/Web/CSS/text-decoration */
 }
 
 /* mouseoverでグレースケール */
@@ -113,11 +98,11 @@ a:hover{
 /*****************************/
 .container01-01 , .container01-02, .container01-03 , .container01-04 {
     display: flex;
-        /*https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Flexible_Box_Layout*/
+
     flex-wrap:wrap;
-        /*https://developer.mozilla.org/ja/docs/Web/CSS/flex-wrap*/
+
     justify-content: space-evenly;
-        /*https://developer.mozilla.org/ja/docs/Web/CSS/justify-content*/
+
     font-size: 0.7em;
 }
 
@@ -166,7 +151,7 @@ footer> p {
 }
 /*******************************************************/
 /* レスポンシブ対応　メディアクエリを使ってCSSを切り替える */
-/* https://www.design-memo.com/coding/css-media-queries */
+
 /* mobileのときのスタイル */
 /*******************************************************/
 @media screen and (max-width: 480px) {
