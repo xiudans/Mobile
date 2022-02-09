@@ -79,9 +79,9 @@ function JudgLine(targetArray, idArray){
 //
 //
 
-a_1.addEventListener("click",() =>{
-    isSelect(a_1);
-});
+// a_1.addEventListener("click",() =>{
+//     isSelect(a_1);
+// });
 
 
 //
